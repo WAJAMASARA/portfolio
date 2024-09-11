@@ -31,31 +31,32 @@ export const Skills = () => {
       <Container>
         <Row>
           <Col>
-            <div className="skill-bx"></div>
-            <h2>Skills</h2>
-            <p>I'm a web developer</p>
-            <Carousel
-              responsive={responsive}
-              infinite={true}
-              className="skill-slider"
-            >
-              <div className="item">
-                <img src={meter1} alt="Image1"></img>
-                <h5>web development</h5>
-              </div>
-              <div className="item">
-                <img src={meter2} alt="Image2"></img>
-                <h5>mobile development</h5>
-              </div>
-              <div className="item">
-                <img src={meter3} alt="Image3"></img>
-                <h5>Hardware development</h5>
-              </div>
-              <div className="item">
-                <img src={meter2} alt="Image4"></img>
-                <h5>software development</h5>
-              </div>
-            </Carousel>
+            <div className="skill-bx">
+              <h2>Skills</h2>
+              <p>I'm a web developer</p>
+              <Carousel
+                responsive={responsive}
+                infinite={true}
+                className="skill-slider"
+              >
+                <div className="item">
+                  <img src={meter1} alt="Image1"></img>
+                  <h5>web development</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image2"></img>
+                  <h5>mobile development</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image3"></img>
+                  <h5>Hardware development</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image4"></img>
+                  <h5>software development</h5>
+                </div>
+              </Carousel>
+            </div>
           </Col>
         </Row>
       </Container>
